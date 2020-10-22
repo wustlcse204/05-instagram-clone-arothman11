@@ -4,9 +4,219 @@
 <head>
   <meta charset="utf-8">
   <meta name="description" content="Instagram">
-  <title>CSE 204 - Assignment 05 Instagram Clone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>CSE 204 - Assignment 05 Instagram Clone</title>
 </head>
 
-<body>
-  <section id="header">
+
+
+<!--navigation bar-->
+<div class="navigationbar">
+  <nav class="navbar">
+    <div class="header-left">
+      <div class="column-left">
+        <img src="logo.jpeg" alt="Instagram Logo" width="40" height= "40">
+      </div>
+      <div class="column-left">
+        <img src="line.png" alt="line" height="40" width="30">
+      </div>
+      <div class="column-left">
+        <img src="text.png" alt="Instagram Logo" width="111" height="40">
+      </div>
+    </div>
+
+    <div class="header-center">
+      <div class="search">
+        <span class="fa fa-search"></span>
+        <input placeholder="Search">
+    </div>
+    </div>
+
+    <div class="header-right">
+      <div class="column-right">
+        <img src="compass.png" alt="Compass" width="40" height= "40">
+      </div>
+      <div class="column-right">
+        <img src="heart.png" alt="heart" height="35" width="35">
+      </div>
+      <div class="column-right">
+        <img src="profile.png" alt="profile" width="35" height="35">
+      </div>
+    </div>
+  </nav>
+</div>
+
+<body id="body">
+<div class="row">
+  <div class="column">
+    <div class="left">
+
+<!--FIRST POST-->
+      <div class="first_pic_header">
+        <p class="firstprofileuser">
+          <img id=firstprofilepic src="profilepic1.png" alt="Profile Picture" width="35" height="35">
+          <img id=firstprofilename src="firstprofilename.png" alt="Profile Name" width="105" height="20">
+        </p>
+      </div>
+
+      <div class="first_pic">
+        <img src="mountain.jpeg" alt="Mountains" width="800" height="800">
+      </div>
+
+      <div class="first_pic_icon">
+        <img id=heart src="heart.png" alt="heart" height="30" width="30">
+        <img id=comment src="comment.png" alt="comment" height="30" width="30">
+        <img id=share src="up.png" alt="share" height="30" width="30">
+      </div>
+
+      <div class="first_pic_comments">
+        <p><b>11 likes</b></p>
+        <p><b>christinanadin</b>  The world #canyons</p>
+        <p id=time>3 HOURS AGO</p>
+        <hr>
+        <p id=addcomment>Add a comment...</p>
+      </div>
+
+<!--SECOND POST-->
+      <div class="first_pic_header">
+        <p class="firstprofileuser">
+          <img id=firstprofilepic src="profilepic2.png" alt="Profile Picture" width="35" height="35">
+          <img id=firstprofilename src="secondprofilename.png" alt="Profile Name" width="90" height="15">
+        </p>
+      </div>
+
+      <div class="first_pic">
+        <img src="fjords.png" alt="Fjords" width="800" height="800">
+      </div>
+
+      <div class="first_pic_icon">
+        <img id=heart src="heart.png" alt="heart" height="30" width="30">
+        <img id=comment src="comment.png" alt="comment" height="30" width="30">
+        <img id=share src="up.png" alt="share" height="30" width="30">
+      </div>
+
+      <div class="first_pic_comments">
+        <p><b>38 likes</b></p>
+        <p><b>sofiaiaguilar</b>  Norway! #fjords</p>
+        <p id=time>3 HOURS AGO</p>
+        <hr>
+        <p id=addcomment>Add a comment...</p>
+      </div>
+
+      <div class="suggestions">
+        <div style="overflow: hidden;">
+          <p id=suggestionsforyou style="float: left;"><b>Suggestions for You</b></p>
+          <p id=seeall style="float: right;"><b>See All</b></p>
+        </div>
+
+        <div class="sugrow">
+
+          <div class="sugcolumn">
+            <img id=share1 src="sug1.png" alt="share" height="60" width="60">
+            <p class=suguser><b>St. Louis Blues</b></p>
+            <p class=followed>Popular</p>
+            <img id=follow src="follow.png" alt="follow" height="30" width="130">
+          </div>
+
+          <div class="sugcolumn">
+            <img id=share2 src="sug2.png" alt="share" height="62" width="60">
+            <p class=suguser><b>CONAN</b></p>
+            <p class=followed>Followed by someperson</p>
+            <img id=follow src="follow.png" alt="follow" height="30" width="130">
+          </div>
+
+          <div class="sugcolumn">
+            <img id=share3 src="sug3.png" alt="share" height="60" width="60">
+            <p class=suguser><b>Mumford&Suns</b></p>
+            <p class=followed>Followed by foobar2</p>
+            <img id=follow src="follow.png" alt="follow" height="30" width="130">
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    </div>
+
+
+
+  <div class="column">
+  <!--rightside-->
+  <div class="right">
+      <div class="myuser">
+        <img id=myprofile src="profilepic.png" alt="Profile Picture" width="50" height="50">
+        <img id=myuser src="amee.png" alt="My User Name" width="115" height="15">
+      </div>
+      <hr>
+      <div style="overflow: hidden;">
+        <p id=stories style="float: left;"><b>Stories</b></p>
+        <p id=watchall style="float: right;"><b>Watch All</b></p>
+      </div>
+
+      <table>
+
+        <tr>
+          <td><img src="story1.png" alt="Story 1" width="60" height="60"></td>
+          <td class=storytext>
+            <p class=storybig>foobar1</p>
+            <p class=storysmall>4 HOURS AGO</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td><img src="story2.png" alt="Story 2" width="60" height="60"></td>
+          <td class=storytext>
+            <p class=storybig>foobar2</p>
+            <p class=storysmall>1 HOUR AGO</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td><img src="story3.png" alt="Story 3" width="60" height="60"></td>
+          <td class=storytext>
+            <p class=storybig>foobar3</p>
+            <p class=storysmall>7 HOURS AGO</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td><img src="story4.png" alt="Story 4" width="60" height="60"></td>
+          <td class=storytext>
+            <p class=storybig>foobar4</p>
+            <p class=storysmall>12 HOURS AGO</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td><img src="story1.png" alt="Story 1" width="60" height="60"></td>
+          <td class=storytext>
+            <p class=storybig>foobar5</p>
+            <p class=storysmall>6 HOURS AGO</p>
+          </td>
+        </tr>
+
+      </table>
+
+  </div>
+
+    <div class="overflowbottom">
+      <hr>
+
+      <div class=bottom>
+        <a>About Us · Support · Press · API · Jobs ·</a>
+        <a>Privacy · Terms · Directory · Profiles ·</a>
+        <a>Hashtags · Language</a>
+        <p>© 2018 INSTAGRAM</p>
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+
+</body>

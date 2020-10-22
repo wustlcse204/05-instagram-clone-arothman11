@@ -1,0 +1,240 @@
+#body{
+  background-color: #F8F8F8;
+}
+
+.navigationbar{
+  width: 100%;
+  position: fixed;
+  top: 0;
+
+}
+
+.row{
+  padding-top: 50px;
+}
+
+.navbar{
+  background-color: white;
+  border: 1px solid lightgrey;
+}
+
+.header-left{
+  width: 13a%;
+}
+
+.column-left{
+  float: left;
+  width: 33.3%;
+}
+
+.header-right{
+  width: 20%;
+}
+
+.column-right{
+  float: left;
+  width: 33%;
+}
+
+.column{
+  float: left;
+  width: 50%;
+}
+
+.left{
+  width: 60%;
+}
+
+.right{
+  width:40%;
+  margin-left: 230px;
+  height: 15%;
+  overflow-y: scroll;
+}
+
+.overflowbottom{
+  width:40%;
+  margin-left: 230px;
+}
+
+.first_pic_header{
+  width: 800px;
+  height: 60px;
+  background-color: white;
+  margin-left: 80px;
+  margin-top: 30px;
+  border: 1px solid lightgrey;
+}
+
+
+.firstprofileuser{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+#firstprofilepic, #firstprofilename{
+  margin-left: 10px;
+}
+
+
+.first_pic{
+  margin-left: 80px;
+}
+
+.first_pic_icon{
+  width: 800px;
+  height: 50px;
+  background-color: white;
+  margin-left: 80px;
+  border-top: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+
+.first_pic_comments{
+  width: 800px;
+  height: 150px;
+  background-color: white;
+  margin-left: 80px;
+  padding-top: 5px;
+  padding-left: 20px;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  font-family: "Arial", Courier, monospace;
+  line-height: 80%;
+}
+
+#time{
+  font-size: 80%;
+  color: darkgrey;
+}
+
+#addcomment{
+  color: darkgrey;
+}
+
+#heart, #comment, #share{
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+#myprofile, #myuser{
+  margin-top:30px;
+}
+
+#stories{
+  color: darkgrey;
+  font-size: 95%
+}
+
+#watchall{
+  font-size: 85%;
+}
+
+.storytext{
+  line-height: 30%;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.storybig{
+  font-weight: bold;
+  font-size: 90%;
+}
+
+.storysmall{
+  color:darkgrey;
+  font-size: 80%;
+}
+
+.bottom{
+  color: lightgrey;
+  font-size: 75%;
+  padding-left: 10px;
+}
+
+.suggestions{
+  width: 800px;
+  height: 340px;
+  background-color: white;
+  margin-left: 80px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  border: 1px solid lightgrey;
+}
+
+.suggestions{
+  padding-top: 15px;
+}
+
+#suggestionsforyou{
+  font-size: 80%;
+  color: darkgrey;
+  padding-left: 20px;
+}
+
+#seeall{
+  font-size: 75%;
+  padding-right: 20px;
+  color: #87CEFA;
+}
+
+.sugcolumn {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  border: 1px solid lightgrey;
+}
+
+.sugrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#share1, #share2, #share3{
+  margin-left: 90px;
+  margin-top: 30px;
+}
+
+.suguser{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.followed{
+  text-align: center;
+  font-size: 80%;
+  color: darkgrey;
+  line-height: 10%;
+}
+
+#follow{
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#input{
+  align: center;
+}
+
+.storiesclass{
+  height: 10%;
+}
+
+input:focus {
+ background-color: lightgrey;
+}
+
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+.search { position: relative; }
+.search input { text-indent: 55px;}
+.search .fa-search {
+  position: absolute;
+  top: 7px;
+  left: 40px;
+  font-size: 15px;
+  color: darkgrey;
+}
